@@ -29,3 +29,9 @@ marking-XelthiaHairFancy = Fancy Hair Tendrils
 marking-XelthiaHairTripoint = Tripoint Hair Tendrils
 
 marking-XelthiaHairDownNBack = Down 'N' Back Tendrils
+
+marking-XelthiaHairAsytentacles = Asytentacles
+
+marking-XelthiaHairSquiddytail = Squiddytail
+
+marking-XelthiaHairTentaspikes = Tentaspikes

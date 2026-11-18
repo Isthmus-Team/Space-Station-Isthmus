@@ -69,3 +69,9 @@
   background: /Textures/LobbyScreens/nosfordgunther.webp
   name: CALL CODE WHITE
   artist: LeonardoDaBepis
+
+- type: lobbyBackground
+  id: Elevator
+  background: /Textures/LobbyScreens/elevator.webp
+  name: Meetup at the Elevator
+  artist: Zeta_Null

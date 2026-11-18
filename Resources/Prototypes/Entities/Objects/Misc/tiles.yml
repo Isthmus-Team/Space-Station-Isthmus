@@ -564,6 +564,22 @@
     stackType: FloorTileLino
 
 - type: entity
+  name: linoleum-style carpet
+  parent: FloorTileItemBase
+  id: FloorTileItemLinoCarpet
+  components:
+  - type: Sprite
+    state: linocarpet
+  - type: Item
+    heldPrefix: steel
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorLinoCarpet
+  - type: Stack
+    stackType: FloorTileLinoCarpet
+
+- type: entity
   name: filled brass plate
   parent: FloorTileItemBase
   id: FloorTileItemBrassFilled
@@ -1357,6 +1373,39 @@
     - FloorGrass
   - type: Stack
     stackType: FloorTileGrass
+    
+- type: entity
+  name: xelthian grass tile
+  parent: FloorTileItemBase
+  id: FloorTileItemXelthiaGrass
+  components:
+  - type: Sprite
+    state: xelgrass
+  - type: Item
+    heldPrefix: grass
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorXelthiaGrass
+  - type: Stack
+    stackType: FloorTileXelthiaGrass
+    
+- type: entity
+  name: mowed xelthian grass tile
+  parent: FloorTileItemBase
+  id: FloorTileItemMowedXelthiaGrass
+  components:
+  - type: Sprite
+    state: xelgrassshort
+  - type: Item
+    heldPrefix: grass
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorMowedXelthiaGrass
+  - type: Stack
+    stackType: FloorTileMowedXelthiaGrass
+
 
 - type: entity
   name: jungle grass tile

@@ -28,7 +28,7 @@
 
 - files: ["cropped_parallax.png", "eighties.png", "gold.png", "grass.png", "ironsand1.png", "ironsand2.png", "ironsand3.png", "ironsand4.png", "junglegrass.png", "lattice.png", "plating.png", "reinforced.png", "silver.png", "snow.png", "wood.png"]
   license: "CC-BY-SA-3.0"
-  copyright: "tgstation commit 8abb19545828230d92ba18827feeb42a67a55d49, cropped_parallax modified from parallax, wood.png resprited by Meowstushka and modified by Ko4erga (discord)"
+  copyright: "tgstation commit 8abb19545828230d92ba18827feeb42a67a55d49, cropped_parallax modified from parallax, wood.png resprited by Meowstushka and modified by Ko4erga (discord), grass.png redrawn with same colors by Zeta_Null"
   source: "https://github.com/tgstation/tgstation/"
 
 - files: ["super_reinforced.png"]
@@ -135,3 +135,8 @@
   license: "CC0-1.0"
   copyright: "Created by ps3moira (github) for space-station-14; resprited by Meowstushka and modified by Ko4erga (discord)"
   source: "https://github.com/space-wizards/space-station-14/"
+
+- files: [ "linocarpet.png"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Edited from lino from vgstation13 at roughly commit e4d3ea7f69d21c3667be12b114fa935c4640cb05, edited by Zeta_Null to make a carpet variant after the texture was fixed."
+  source: "https://github.com/vgstation-coders/vgstation13, https://github.com/Isthmus-Team/Space-Station-Isthmus"

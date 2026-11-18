@@ -47,3 +47,8 @@
   license: "CC-BY-SA-3.0"
   copyright: "leonardodabepis on discord"
   source: "https://www.youtube.com/@leonardodabepis"
+
+- files: ["elevator.webp"]
+  license: "CC0-1.0"
+  copyright: "Zeta_Null"
+  source: "https://github.com/Isthmus-Team/Space-Station-Isthmus"

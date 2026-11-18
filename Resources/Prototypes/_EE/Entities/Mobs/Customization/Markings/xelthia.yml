@@ -91,6 +91,32 @@
   - sprite: _EE/Mobs/Customization/xelthia_parts.rsi
     state: hair_downandback
 
+- type: marking
+  id: XelthiaHairAsytentacles
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Xelthia]
+  sprites:
+  - sprite: _EE/Mobs/Customization/xelthia_parts.rsi
+    state: hair_asytentacles
+    
+- type: marking
+  id: XelthiaHairSquiddytail
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Xelthia]
+  sprites:
+  - sprite: _EE/Mobs/Customization/xelthia_parts.rsi
+    state: hair_squiddytail
+    
+- type: marking
+  id: XelthiaHairTentaspikes
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Xelthia]
+  sprites:
+  - sprite: _EE/Mobs/Customization/xelthia_parts.rsi
+    state: hair_tentaspikes
 # Chest Patterns
 
 - type: marking
