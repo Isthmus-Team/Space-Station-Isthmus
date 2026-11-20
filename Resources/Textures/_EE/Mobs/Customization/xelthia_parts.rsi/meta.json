@@ -52,6 +52,18 @@
       "directions": 4
     },
 	{
+      "name": "hair_asytentacles",
+      "directions": 4
+    },
+	{
+      "name": "hair_squiddytail",
+      "directions": 4
+    },
+	{
+      "name": "hair_tentaspikes",
+      "directions": 4
+    },
+	{
       "name": "backspikes",
       "directions": 4
     },

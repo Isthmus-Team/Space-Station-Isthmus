@@ -638,3 +638,21 @@
   name: large wood floor
   spawn: FloorTileItemWoodLarge
   maxCount: 30
+
+- type: stack
+  id: FloorTileLinoCarpet
+  name: linoleum-style carpet
+  spawn: FloorTileItemLinoCarpet
+  maxCount: 30
+
+- type: stack
+  id: FloorTileXelthiaGrass
+  name: grass floor tile
+  spawn: FloorTileItemXelthiaGrass
+  maxCount: 30
+  
+- type: stack
+  id: FloorTileMowedXelthiaGrass
+  name: grass floor tile
+  spawn: FloorTileItemMowedXelthiaGrass
+  maxCount: 30

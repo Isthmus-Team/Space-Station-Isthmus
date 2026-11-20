@@ -1466,6 +1466,12 @@
   id: FloorGrassJungle
   name: tiles-jungle-grass-floor
   sprite: /Textures/Tiles/grassjungle.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: FloorDirt
   isSubfloor: false
   canShovel: true # Delta V
@@ -1908,6 +1914,43 @@
   isSubfloor: false
   deconstructTools: [ Cutting ]
   itemDrop: FloorTileItemJungleAstroGrass
+  
+- type: tile
+  id: FloorXelthiaGrass
+  name: tiles-xelthia-grass
+  sprite: /Textures/Tiles/Planet/Grass_Xelthia/grass.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  edgeSpritePriority: 1
+  edgeSprites:
+    SouthEast: /Textures/Tiles/Planet/Grass_Xelthia/single_edge.png
+    NorthEast: /Textures/Tiles/Planet/Grass_Xelthia/single_edge.png
+    NorthWest: /Textures/Tiles/Planet/Grass_Xelthia/single_edge.png
+    SouthWest: /Textures/Tiles/Planet/Grass_Xelthia/single_edge.png
+    South: /Textures/Tiles/Planet/Grass_Xelthia/double_edge.png
+    East: /Textures/Tiles/Planet/Grass_Xelthia/double_edge.png
+    North: /Textures/Tiles/Planet/Grass_Xelthia/double_edge.png
+    West: /Textures/Tiles/Planet/Grass_Xelthia/double_edge.png
+  baseTurf: FloorPlanetDirt
+  isSubfloor: false
+  deconstructTools: [ Cutting ]
+  footstepSounds:
+    collection: FootstepGrass
+  itemDrop: FloorTileItemXelthiaGrass
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorMowedXelthiaGrass
+  name: tiles-mowed-xelthia-grass
+  sprite: /Textures/Tiles/Planet/Grass_Xelthia/grass_mowed.png
+  baseTurf: FloorPlanetDirt
+  isSubfloor: false
+  deconstructTools: [ Cutting ]
+  itemDrop: FloorTileItemMowedXelthiaGrass
 
 # Ice
 - type: tile
@@ -1970,3 +2013,16 @@
     collection: FootstepFloor
   itemDrop: FloorTileItemSteel
   heatCapacity: 10000
+
+- type: tile
+  id: FloorLinoCarpet
+  name: tiles-linoleum-carpet-floor
+  sprite: /Textures/Tiles/linocarpet.png
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemLinoCarpet
+  heatCapacity: 10000
+  
